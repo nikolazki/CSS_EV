@@ -1,0 +1,276 @@
+@media all and (max-width: 900px) {
+body {
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+}
+
+.contenido {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  margin: auto;
+  align-content: center;
+}
+
+header {
+  display: block;
+  width: 100%;
+  background-color: #5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.TopB {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+nav {
+  margin: auto;
+}
+
+nav a {
+  margin: 15px;
+  color: white;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+#active {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+#MainI {
+  background-color: #82c3a6;
+}
+
+#Secondary {
+  background-color: #d5c75f;
+  border: 1px;
+  text-align: center;
+}
+
+#Secondary a {
+  padding-bottom: 10px;
+}
+
+.contenido a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+#BottomB {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  width: 100%;
+  background-color: #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#BColumn1 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+#BColumn2 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+#BColumn3 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.Redes {
+  width: auto;
+  text-align: left;
+  padding: 3px;
+}
+
+#BColumn4 {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+}
+
+@media all and (min-width: 901px) {
+body {
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+}
+
+.contenido {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  background-color: #5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.TopB {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+nav {
+  margin: auto;
+  float: right;
+}
+
+nav a {
+  margin: 15px;
+  color: white;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+#active {
+  text-decoration: none;
+}
+
+img {
+  width: 800px;
+  filter: drop-shadow(2px 2px 2px #02010a);
+  margin-right: 50px;
+  margin-left: 15px;
+
+}
+
+#MainI {
+  background-color: #82c3a6;
+}
+
+#Secondary {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  background-color: #d5c75f;
+  border: 1px;
+  align-items: center;
+}
+
+#Secondary a {
+  padding-bottom: 20px;
+}
+
+#imgColumn1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 400px !important;
+  margin: 25px;
+  text-align: center;
+  transform: perspective(800px);
+  transition-duration: 1s;
+}
+
+#imgColumn1:hover {
+  transition-property: all;
+  transition-duration: 1s;
+  transform: rotate(10deg);
+  border: 2px;
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+
+#imgColumn2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 400px !important;
+  margin: 25px;
+  text-align: center;
+  transform: perspective(800px);
+  transition-duration: 1s;
+}
+
+#imgColumn2:hover {
+  transition-property: all;
+  transition-duration: 1s;
+  transform: translate(20px, -5px);
+  border: 2px;
+  filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+
+#BottomB {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 100%;
+  background-color: #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#BColumn1 {
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+
+#BColumn2 {
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+
+#BColumn3 {
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+
+.Redes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 15%;
+  padding: 3px;
+}
+
+#BColumn4 {
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+}
