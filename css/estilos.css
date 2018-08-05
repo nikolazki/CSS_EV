@@ -24,12 +24,22 @@ header {
 }
 
 .TopB {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  margin: auto;
+  width: 100%;
   text-align: center;
   filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+#Bnav {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 5px;
+}
+
+#Bnav a {
+  text-align: center;
+  padding: auto;
+  margin: auto;
 }
 
 nav {
@@ -104,9 +114,27 @@ img {
 }
 
 .Redes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
   width: auto;
-  text-align: left;
   padding: 3px;
+}
+
+#Red1 {
+  width: 33%;
+}
+
+#Red2 {
+  width: 33%;
+}
+
+#Red3 {
+  width: 33%;
+}
+
+.icons {
+  width: 40px;
 }
 
 #BColumn4 {
@@ -187,19 +215,15 @@ img {
   width: 50%;
   background-color: #d5c75f;
   border: 1px;
-  align-items: center;
-}
-
-#Secondary a {
-  padding-bottom: 20px;
+  text-align: center;
 }
 
 #imgColumn1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 400px !important;
-  margin: 25px;
+  width: 350px !important;
+  margin: 10px;
   text-align: center;
   transform: perspective(800px);
   transition-duration: 1s;
@@ -217,8 +241,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 400px !important;
-  margin: 25px;
+  width: 350px !important;
+  margin: 10px;
   text-align: center;
   transform: perspective(800px);
   transition-duration: 1s;
@@ -256,7 +280,6 @@ img {
 
 #BColumn3 {
   width: 25%;
-  padding: 5px;
   text-align: center;
 }
 
@@ -264,8 +287,26 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-flow: row;
-  width: 15%;
-  padding: 3px;
+  padding: 0;
+  margin: 0;
+}
+
+#Red1 {
+  width: 33%;
+}
+
+#Red2 {
+  width: 33%;
+}
+
+#Red3 {
+  width: 33%;
+}
+
+.icons {
+  width: 35px;
+  padding-right: 7px;
+  margin: 0;
 }
 
 #BColumn4 {
