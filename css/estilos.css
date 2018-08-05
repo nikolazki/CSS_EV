@@ -1,3 +1,9 @@
+@keyframes HeadAnimation {
+  0% {margin-top: 150%;}
+  60% {margin-top: -5%;}
+  100% {margin-top: 0%;}
+}
+
 @media all and (max-width: 900px) {
 body {
   background-color: #02010a;
@@ -21,6 +27,7 @@ header {
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  animation: HeadAnimation 1s;
 }
 
 .TopB {
@@ -142,6 +149,41 @@ img {
   padding: 5px;
   text-align: center;
 }
+
+#MGrid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#img1 {
+  width: 100%;
+  filter: blur(10px);
+}
+
+#img2 {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#img3 {
+  width: 100%;
+  filter: sepia(90%);
+}
+
+#img4 {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#img5 {
+  width: 100%;
+}
+
+#img6 {
+  width: 100%;
+  filter: grayscale(100%);
+}
 }
 
 @media all and (min-width: 901px) {
@@ -166,6 +208,7 @@ header {
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  animation: HeadAnimation 1s;
 }
 
 .TopB {
@@ -196,12 +239,13 @@ a {
   text-decoration: none;
 }
 
-img {
+#MainI img {
   width: 800px;
-  filter: drop-shadow(2px 2px 2px #02010a);
-  margin-right: 50px;
-  margin-left: 15px;
+  vertical-align: middle;
+}
 
+img {
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
 
 #MainI {
@@ -304,14 +348,70 @@ img {
 }
 
 .icons {
-  width: 35px;
-  padding-right: 7px;
-  margin: 0;
+  width: 35px !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 #BColumn4 {
   width: 25%;
   padding: 5px;
   text-align: center;
+}
+
+#MGrid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#col1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 33%;
+}
+
+#img1 {
+  width: 100%;
+  filter: blur(10px);
+}
+
+#img2 {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#col2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 33%;
+}
+
+#img3 {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#img4 {
+  width: 100%;
+}
+
+#col3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 33%;
+}
+
+#img5 {
+  width: 100%;
+  filter: sepia(90%);
+}
+
+#img6 {
+  width: 100%;
+  filter: grayscale(100%);
 }
 }
